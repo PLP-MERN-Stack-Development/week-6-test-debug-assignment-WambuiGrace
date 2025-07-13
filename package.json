@@ -1,0 +1,27 @@
+{
+  "name": "mern-testing-assignment",
+  "version": "1.0.0",
+  "description": "A MERN stack application with comprehensive testing.",
+  "main": "server/src/index.js",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix client && npm install --prefix server",
+    "test": "jest",
+    "test:unit": "jest --testPathPattern=/unit/",
+    "test:integration": "jest --testPathPattern=/integration/",
+    "test:e2e": "jest --testPathPattern=/e2e/",
+    "setup-test-db": "node server/setup-test-db.js"
+  },
+  "keywords": [
+    "mern",
+    "testing",
+    "jest",
+    "supertest",
+    "cypress"
+  ],
+  "author": "Grace",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.0.0"
+  }
+}

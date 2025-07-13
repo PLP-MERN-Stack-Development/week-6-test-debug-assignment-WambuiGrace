@@ -69,13 +69,16 @@ mern-testing/
 - Cypress/Playwright: End-to-end testing framework
 - MongoDB Memory Server: In-memory MongoDB for testing
 
+## Testing Strategy
+
+A comprehensive testing strategy is implemented to ensure the reliability and stability of the application. The strategy includes unit, integration, and end-to-end testing. For a detailed explanation of the testing approach, see the [TESTING.md](TESTING.md) file.
 ## Submission
 
 Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
 1. Complete all required tests (unit, integration, and end-to-end)
 2. Achieve at least 70% code coverage for unit tests
-3. Document your testing strategy in the README.md
+3. Document your testing strategy in `TESTING.md`
 4. Include screenshots of your test coverage reports
 5. Demonstrate debugging techniques in your code
 

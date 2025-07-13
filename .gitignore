@@ -1,0 +1,39 @@
+node_modules
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Test coverage
+coverage/
+client/coverage/
+server/coverage/
+
+# Cypress output
+cypress/videos/
+cypress/screenshots/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build output
+dist/
+build/
+
+# Lock files (optional, if you don't want to track them)
+# package-lock.json
+# client/package-lock.json
+# server/package-lock.json
